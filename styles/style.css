@@ -302,7 +302,7 @@ span{
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     margin-left: -100px;
-    margin-bottom: -5px;
+    /* margin-bottom: -5px; */
 }
 /* 8th part */
 .footer{
