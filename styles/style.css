@@ -71,6 +71,7 @@
     justify-content: center;
     border-radius: 15px;
     margin: auto;
+    
 }
 .welcome1{
     color: #FFF;
@@ -129,12 +130,13 @@ span{
 .number5{
    margin-top: 120px;
     width: 1320px;
-    height: 7335px;
+    height: 3650px;
 }
 .part5{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 115px;
 }
 .left{
     margin-top: 70px;
@@ -205,4 +207,146 @@ span{
     height: 140px;
     flex-shrink: 0;
     align-items: baseline;
+}
+
+/* 6th part styles */
+
+.bonus-header{
+    text-align: center;
+}
+.functional{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.holidays{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0;
+}
+.holidays1{
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+.sale{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 0;
+}
+.hard{
+    max-width: 1320px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+/* 7th part */
+.the-best-gift{
+    margin-top: 120px;
+}
+.hover{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1320px;
+}
+.images{
+    margin-right: 15px;
+    margin-bottom: 24px;
+    transition: 1s;
+}
+.images:hover{
+    transform: scale(0.9);
+}
+/* 7th part */
+.newsletter{
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 100%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    font-family: Inter;
+    border-radius: 15px;
+}
+.text3{
+    text-align: center;
+    padding: 80px 212px;
+    
+}
+.email{
+    width: 648px;
+    height: 72px;
+    border: none;
+    border-radius: 50px;
+    background: #FFF;
+    font-size: 20px;
+    text-align: center;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-weight: 400;
+}
+.subscribe-btn{
+    width: 210px;
+    height: 72px;
+    border: none;
+    font-size: 30px;
+    color: #FFF;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    margin-left: -100px;
+    margin-bottom: -5px;
+}
+/* 8th part */
+.footer{
+width: 1600px;
+height: 610px;
+background: #070211;
+margin-left: -280px;
+margin-top: 120px;
+padding: 120px 140px;
+}
+section{
+    color: #FFF;
+}
+.image4{
+    margin-right: 25px;
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 150px;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.bottom{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.line{
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);    
 }
