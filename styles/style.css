@@ -61,6 +61,7 @@
     margin-top: 48px;
 }
 /* 3rd part styles */
+/* main part */
 .welcome{
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
@@ -84,7 +85,7 @@
 .details{
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
-    font-size: 18px;
+    font-size: 21px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
@@ -92,11 +93,116 @@
 }
 .btn-primary{
     background-color: #F00;
-    border-radius: 15px;
+    border-radius: 5px;
     color: #FFF;
     padding: 10px;
     font-size: 20px;
+    text-decoration: none;
+    border: none;
 }
 .text1{
     padding: 110px 497px 142px 126px;
+}
+/* 4th part styles */
+.join-now{
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    font-family: Inter;
+    margin: auto;
+    border-radius: 15px;
+}
+span{
+    color: #F00;
+}
+.text2{
+    margin-top: 120px;
+    padding: 100px ;
+    text-align: center;
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 60px;
+}
+/* 5th part style */
+.number5{
+   margin-top: 120px;
+    width: 1320px;
+    height: 7335px;
+}
+.part5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    margin-top: 70px;
+    
+}
+.new{
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.soon{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.details1{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+    line-height: 30px;
+}
+/* 5th part image styles */
+.image1{
+    align-self: center;
+    width: 463px;
+    height: 463px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    margin-left: 70px;
+}
+#img{
+    width: 364.844px;
+    height: 364.844px;
+    border-radius: 364.844px;
+    padding: 45px;
+    
+}
+/* 5th part right styles */
+.right{
+    margin-top: 80px;
+    margin-left: 120px;
+}
+.happy{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.thank-you{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.group96{
+    margin-top: 40px;
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+    align-items: baseline;
 }
